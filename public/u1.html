@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acelerador Only 20</title>
+    
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Estilos CSS Otimizados -->
+    <style>
+        :root {
+            --color-primary-purple: #903df4;
+            --color-light-purple: #f2e8fe;
+            --color-text-dark: #2d3748;
+            --color-text-light: #4a5568;
+            --color-green-accent: #00cc63;
+            --color-red-accent: #f9042a;
+        }
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--color-text-dark);
+            background-color: #fff;
+            text-align: center;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+        p, div {
+            line-height: 1.6;
+        }
+        .header {
+            background-color: var(--color-primary-purple);
+            color: white;
+            padding: 20px 0;
+        }
+        .header p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        .progress-bar {
+            width: 80%;
+            height: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            margin: 15px auto 0;
+            overflow: hidden;
+        }
+        .progress-bar-inner {
+            width: 50%;
+            height: 100%;
+            background-color: var(--color-green-accent);
+        }
+        .warning-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-top: 30px;
+        }
+        .exclusive-offer {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        .video-container {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .highlight-green {
+            background-color: var(--color-green-accent);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .image-responsive {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .notifications-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .purple-section {
+            background-color: var(--color-light-purple);
+            border: 2px dashed var(--color-primary-purple);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+        }
+        .bullet-list {
+            text-align: left;
+            margin: 30px auto;
+            max-width: 550px;
+        }
+        .bullet-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .bullet-list li {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .bullet-list .icon {
+            color: var(--color-primary-purple);
+            font-size: 1.5rem;
+        }
+        .price-section {
+            margin-top: 40px;
+        }
+        .price-original {
+            font-size: 1.5rem;
+            color: var(--color-text-light);
+        }
+        .price-original span {
+            text-decoration: line-through;
+            color: var(--color-red-accent);
+            font-weight: 700;
+        }
+        .price-final {
+            font-size: 5rem;
+            font-weight: 900;
+            color: var(--color-green-accent);
+            margin: 10px 0;
+        }
+        .footer {
+            background-color: var(--color-primary-purple);
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        /* Oculta os elementos que devem aparecer depois */
+        .delayed-content {
+            display: none;
+        }
+    </style>
+    
+    <!-- Scripts essenciais (Hotmart) -->
+    <script id="hotmart_launcher_script">
+        (function(l,a,u,n,c,h,e,r){l['HotmartLauncherObject']=c;l[c]=l[c]||function(){
+        (l[c].q=l[c].q||[]).push(arguments)},l[c].l=1*new Date();h=a.createElement(u),
+        e=a.getElementsByTagName(u)[0];h.async=1;h.src=n;e.parentNode.insertBefore(h,e)
+        })(window,document,'script','//launcher.hotmart.com/launcher.js','hot');
+        hot('account','fc3d8290-f9d5-38b6-8d5a-14b9381e7f4e');
+    </script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <p>¡Felicidades! <u>Acabas de dar el primer paso</u> <b>para mejorar tus ingresos con modelos IA.</b></p>
+            <div class="progress-bar">
+                <div class="progress-bar-inner"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="warning-box">
+            <span style="font-size: 2rem; color: var(--color-primary-purple);">⚠️</span>
+            <span>¡NO CIERRES NI ACTUALICES LA PÁGINA!</span>
+        </div>
+        <p class="exclusive-offer">Esta es una <b>oferta exclusiva</b> SOLO para nuevos miembros.</p>
+        
+        <div class="video-container">
+            <vturb-smartplayer id="vid-688b1a7946b5475eb7aa45c2" style="display: block;"></vturb-smartplayer>
+        </div>
+        
+        <h3>Imagina esto por un momento...</h3>
+        <p>Ya tienes <b>tus modelos con IA listas</b> para generar contenido y empezar a monetizar.</p>
+        <p>Ahora imagina tener <b>una cuenta secreta ya probada</b>, con publicaciones listas, estructura validada y mensajes que convierten automáticamente.</p>
+
+        <!-- Conteúdo que aparece após 125 segundos -->
+        <div class="delayed-content">
+            
+            <h2>Descubre <u>El Sistema Exacto</u> que ya está <span class="highlight-green">generando +$1,000 por semana sin mostrarte</span></h2>
+            
+            <img src="https://i.ibb.co/NgCx9HZ3/avav.gif" alt="Resultados de ganhos" class="image-responsive">
+            
+            <h3>Copia y pega un sistema real...</h3>
+            <p><b>Este recurso no está disponible públicamente.</b></p>
+
+            <img src="https://agenteproia.online/wp-content/uploads/2025/07/MOCKUPS-21-1.png" alt="Acelerador Only Mockup" class="image-responsive" width="400">
+            
+            <p>Este acelerador <b>cambiará por completo la forma en que tu generes ingresos con modelos IA</b>. Ahora que ya tienes tus modelos listos, te damos acceso exclusivo al clon exacto de una cuenta que ya convierte, sin esfuerzo.</p>
+
+            <h3>¿Estás listo para publicar hoy y empezar a ganar esta semana?</h3>
+            <div class="notifications-grid">
+                <img src="https://agenteproia.online/wp-content/uploads/2025/07/OF-NOT-02.png" alt="Notificações de vendas 1" class="image-responsive">
+                <img src="https://agenteproia.online/wp-content/uploads/2025/07/OF-NOT-03.png" alt="Notificações de vendas 2" class="image-responsive">
+                <img src="https://agenteproia.online/wp-content/uploads/2025/07/OF-NOT-04.png" alt="Notificações de vendas 3" class="image-responsive">
+                <img src="https://agenteproia.online/wp-content/uploads/2025/07/OF-NOT-05.png" alt="Notificações de vendas 4" class="image-responsive">
+            </div>
+
+            <p>Descubre cómo puedes <b>copiar una cuenta modelo secreta y generar ingresos en tiempo record</b> sin estrés ni complicaciones, con herramientas prácticas y fáciles de aplicar.</p>
+
+            <section class="purple-section">
+                <h3><b>El 90% de las personas</b> que usan este sistema ganan sus primeros $100 en menos de 72 horas.</h3>
+                <p>Y lo mejor: sin mostrar el rostro ni hacer nada complicado.</p>
+                <p>Esto es lo que queremos para ti por eso...</p>
+                <p>Ahora que ya aprendiste a crear los modelos de IA, <b>Usar este acelerador será el atajo real</b> para convertir tus publicaciones en ingresos desde el día 1.</p>
+                <img src="https://i.ibb.co/B56LqXDY/0725dcdd.gif" alt="Exemplo de conversa" class="image-responsive" width="300">
+                <p>Ya no empieces desde cero<br><b>Solo copia, publica y gana con el ACELERADOR ONLY</b></p>
+            </section>
+
+            <h2>Estás a punto de descubrir:</h2>
+            <div class="bullet-list">
+                <ul>
+                    <li><span class="icon">✔️</span><div><b>Cómo copiar una cuenta modelo secreta</b> que ya está generando +$1,000 por semana sin mostrarte.</div></li>
+                    <li><span class="icon">✔️</span><div><b>Publicaciones exactas</b> que ya convirtieron, listas para copiar, pegar y publicar hoy mismo.</div></li>
+                    <li><span class="icon">✔️</span><div>Historias y mensajes <b>que despiertan curiosidad y convierten seguidores en clientes</b> sin vender de forma incómoda.</div></li>
+                    <li><span class="icon">✔️</span><div><b>Un chat de cierre rápido que puedes usar</b> en OnlyFans, Instagram o WhatsApp sin mostrar tu cara.</div></li>
+                    <li><span class="icon">✔️</span><div><b>La ruta exacta para lanzar tu cuenta</b> desde cero, incluso si no tienes seguidores ni experiencia.</div></li>
+                    <li><span class="icon">✔️</span><div>Y mucho más...</div></li>
+                </ul>
+            </div>
+            
+            <h3 style="color: var(--color-red-accent); font-size: 1.8rem; margin-top: 50px;">Y Aún Hay Más...</h3>
+            <h3 style="color: var(--color-red-accent); text-decoration: underline;">Porque Hoy Te Hiciste Miembro...</h3>
+            <p style="font-size: 1.2rem;">Acabas de ganar un descuento exclusivo de $45 en el Acelerador ONLY completo.</p>
+            <p style="font-weight: 700;">Asegura Tu Acceso al Acelerador Only con un super precio:</p>
+            
+            <img src="https://agenteproia.online/wp-content/uploads/2025/07/MOCKUPS-22-1.png" alt="Mockup completo do produto" class="image-responsive" width="500">
+            
+            <div class="price-section">
+                <p>*Pago único sin cargos adicionales</p>
+                <p class="price-original">DE <span>$65.00</span> HOY POR SOLO</p>
+                <p class="price-final">$19,97</p>
+            </div>
+
+            <!-- HOTMART - Widget de Vendas -->
+            <div id="hotmart-sales-funnel" style="margin-top: 30px;"></div>
+            <script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+            <script>
+                checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel');
+            </script>
+            
+            <p style="font-weight: 700; font-size: 1.2rem; margin-top: 30px;">¡Sólo válido ahora y en esta página!</p>
+
+        </div>
+        <!-- Fim do conteúdo que aparece depois -->
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados @iamastermodels</p>
+    </footer>
+
+    <!-- Scripts do Player de Vídeo -->
+    <script>
+        var s = document.createElement("script");
+        s.src = "https://scripts.converteai.net/12e49dd0-7d9e-43aa-a9df-782dcb774235/players/688b1a7946b5475eb7aa45c2/v4/player.js";
+        s.async = !0;
+        document.head.appendChild(s);
+    </script>
+    
+    <!-- Script para mostrar conteúdo com atraso -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // O tempo original era 125000ms (125 segundos)
+            const delayInMilliseconds = 125000;
+
+            setTimeout(function() {
+                const delayedElements = document.querySelectorAll('.delayed-content');
+                delayedElements.forEach(function(element) {
+                    element.style.display = 'block';
+                });
+            }, delayInMilliseconds);
+        });
+    </script>
+
+</body>
+</html>
